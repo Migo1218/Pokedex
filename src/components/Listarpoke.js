@@ -8,19 +8,20 @@ const Listarpoke = () => {
   const dispatch = useDispatch();
 
   const pokemones = useSelector((state) => state.listar.pokemones);
-  console.log(pokemones);
 
   useEffect(() => {
     dispatch(listar());
   }, [dispatch]);
 
   return (
-    <div>
+      <div  className="container mt-5">
+    <div className="d-flex row row-cols-1 row-cols-md-2 row-cols-xl-4 g-4">
       {pokemones.map(({ imagen, nombre, numero, tipos }) => {
         return (
           <Pokemon key={numero} nombre={nombre} imagen={imagen} tipos={tipos} />
         );
       })}
+    </div>
     </div>
   );
 };

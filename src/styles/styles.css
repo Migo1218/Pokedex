@@ -1,0 +1,28 @@
+*{
+    background-color: rgb(252, 255, 225);
+}
+
+.img{
+    display: flex;
+    margin: 0 auto;
+    width: 450px;
+    height: 250px;
+}
+
+.nombrepoke{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: tomato;
+}
+
+.tipo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(29, 29, 216);
+}
+
+.login{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
