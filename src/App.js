@@ -1,9 +1,9 @@
-import Principal from "./container/Principal";
+import AppRouter from "./routes/Approuter";
 
 function App() {
   return (
     <div>
-      <Principal/>
+      <AppRouter/>
     </div>
   );
 }

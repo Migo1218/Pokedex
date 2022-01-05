@@ -6,7 +6,7 @@ import Login from '../components/Login'
 const Principal = () => {
     return (
         <div>
-           <Login/>
+          
             <Busqueda/>
             <Listarpoke/>
         </div>

@@ -2,6 +2,7 @@ import { applyMiddleware, combineReducers, compose, createStore } from "redux";
 import thunk from "redux-thunk";
 
 import { listarReducer } from "../reducers/listarReducer";
+import { loginReducer } from "../reducers/loginReducer";
 
 const composeEnhancers =
   (typeof window !== "undefined" &&
@@ -11,6 +12,7 @@ const composeEnhancers =
 const reducers = combineReducers({
  
   listar: listarReducer,
+  login: loginReducer
   
 });
 
